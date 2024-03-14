@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rough Api's</title>
+</head>
+<body>
+<link rel="stylesheet" href="styles.css">
+<!---------------------------------------------------------------------- -->
+    <div class="container">
+        <div >
+            <h1>Weather App</h1>
+            <input type="text" placeholder="Enter City" class="search-box">
+            <span style="padding:6px; background-color: aqua; border-radius:32px; margin-left:12px;cursor:pointer;" class="search-btn">Search</span>
+        </div>
+    <div class="error-msg" style="display:none">
+        <p style="color:rgb(13, 13, 13);font-size:20px;">Invalid City</p>
+    </div>
+
+        <div class="container2" style="display:none">
+            <img src="./assets/clear.png" class="weather" alt="" style="width:100px;margin-bottom:6px; ">
+            <h2 class="temp" style="margin-bottom: 12px;">temperature</h2>
+            <h2 class="city" style="margin-bottom: 52px;">City</h2>
+        
+        <div class="container3">
+            <span style="display:flex;">
+                <img src="./assets/humidity.png" alt="" style="width: 30px; height:30px;margin:5px auto 22px auto;">
+                 <div>
+                    <h3 class="humidity"> </h3> 
+                    <p>Humidity</p>
+                 </div>
+            </span>
+            <span style="display:flex;">
+                <img src="./assets/wind.png" alt="" style="width: 30px; height:30px;margin:5px auto 22px auto">
+                <div>
+                    <h3 class="wind"></h3> 
+                    <p>Wind Speed</p>
+                 </div>
+            </span>
+        </div>
+        </div>
+    </div>
+<!-- ------------------------------------------------------------------ -->
+<script src="script.js"></script>
+    
+</body>
+</html>
